@@ -1,4 +1,4 @@
-
+import BpWidgets from "./components/BpWidgets";
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -171,6 +171,7 @@ const App: React.FC = () => {
         activeTab={activeInfoTab} 
         onClose={() => setActiveInfoTab(null)} 
       />
+      <BpWidgets />
     </div>
   );
 };
